@@ -71,6 +71,7 @@ header nav ul li:last-of-type a {
   align-items: flex-end;
   padding-bottom: 71px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .main_banner article {
@@ -216,6 +217,7 @@ header nav ul li:last-of-type a {
   align-items: center;
   padding-right: 62px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .sunset article {
@@ -252,6 +254,7 @@ header nav ul li:last-of-type a {
   align-items: center;
   padding-right: 87px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .monstera article {
@@ -328,6 +331,7 @@ header nav ul li:last-of-type a {
   align-items: center;
   padding-right: 119px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .star article {
@@ -414,4 +418,185 @@ header nav ul li:last-of-type a {
   margin-right: 6px;
   background-color: #000000;
   border-radius: 50%;
+}
+
+.bottom_icons {
+  position: absolute;
+  right: 40px;
+  bottom: 41px;
+  display: flex;
+  list-style: none;
+}
+
+.bottom_icons li {
+  margin-left: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.bottom_icons li::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/img_1.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  position: relative;
+  bottom: -6px;
+}
+
+.bottom_icons li:nth-child(2):before {
+  background-image: url("../images/img_2.svg");
+}
+
+.bottom_icons li:nth-child(3):before {
+  background-image: url("../images/img_3.svg");
+  width: 32px;
+}
+
+.bottom_icons li:nth-child(4):before {
+  background-image: url("../images/img_4.svg");
+  width: 10px;
+}
+
+/* tools */
+
+.tools {
+  position: relative;
+  min-height: 540px;
+  background: black;
+}
+
+.tools .container {
+  margin: auto;
+  max-width: 1240px;
+  min-height: 540px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.tools article h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-bottom: 6px;
+}
+
+.tools article h2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.tools article p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.tools article a {
+  background: #ffffff;
+  border-radius: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-flex;
+  line-height: 20px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  padding: 11px 10px;
+  color: #000000;
+}
+
+.tools article a::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.tools .by_img {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../images/photographer.jpg");
+  background-size: cover;
+}
+
+footer {
+  background-color: black;
+  padding: 100px 0;
+}
+
+footer .container {
+  max-width: 1168px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container:nth-child(2) {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 40px 0;
+}
+
+footer .right_first {
+  display: flex;
+}
+
+footer .right_first ul {
+  min-width: 220px;
+  margin-left: 15px;
+}
+
+footer form {
+  width: 100%;
+  max-width: 458px;
+  background: #f9fafb;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 6px;
+  box-sizing: border-box;
+  height: 52px;
+}
+
+footer form input {
+  line-height: 52px;
+  border: none;
+  background-color: transparent;
+  width: 80%;
+}
+
+footer form button {
+  width: 63px;
+  height: 30px;
+  background: #000000;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
 }
