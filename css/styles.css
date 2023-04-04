@@ -545,6 +545,8 @@ header nav ul li:last-of-type a {
   background-size: cover;
 }
 
+/*footer */
+
 footer {
   background-color: black;
   padding: 100px 0;
@@ -561,6 +563,7 @@ footer .container:nth-child(2) {
   border-top: solid 2px white;
   border-bottom: solid 2px white;
   padding: 40px 0;
+  margin-bottom: 56px;
 }
 
 footer .right_first {
@@ -570,6 +573,59 @@ footer .right_first {
 footer .right_first ul {
   min-width: 220px;
   margin-left: 15px;
+  margin-bottom: 36px;
+}
+
+footer .right_first li {
+  margin-bottom: 10px;
+}
+
+footer .right_first li:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  list-style: none;
+}
+
+footer .right_first a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .left_first p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #c0c0c0;
+}
+
+footer .left_first a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+footer .left_first h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 footer form {
@@ -599,4 +655,13 @@ footer form button {
   border-radius: 11px;
   border: none;
   cursor: pointer;
+}
+
+footer .icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+footer .icons li {
+  margin-left: 24px;
 }
