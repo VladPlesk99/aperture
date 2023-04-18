@@ -320,6 +320,11 @@ header nav ul li:last-of-type a {
   align-items: center;
 }
 
+.past_images a {
+  max-width: 128px;
+  display: inline-block;
+}
+
 /*Star*/
 
 .star {
@@ -664,4 +669,9 @@ footer .icons {
 
 footer .icons li {
   margin-left: 24px;
+}
+
+.owl-stage {
+  display: flex;
+  align-items: center;
 }

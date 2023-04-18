@@ -1,0 +1,161 @@
+@media only screen and (max-width: 769px) {
+  header nav ul li {
+    margin-left: 12px;
+  }
+
+  header nav ul li a {
+    font-size: 12px;
+  }
+
+  .what_we_do .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tools .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tools .by_img {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+
+  .past_clients .past_images {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  footer .container .left_first {
+    margin-left: 15px;
+  }
+
+  footer .container form {
+    margin-right: 12px;
+  }
+
+  footer .container .icons {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  header nav ul li {
+    display: none;
+  }
+
+  .tools .container {
+    padding-left: 12px;
+  }
+
+  .past_clients .past_images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer .container .right_first {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .main_banner .container article p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .tools .container {
+    padding-left: 15px;
+  }
+}
+
+/* @media only screen and (max-width: 413px) {
+} - all good*/
+
+@media only screen and (max-width: 390px) {
+  .tools .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .past_clients .past_images {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .what_we_do h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .star article {
+    padding-left: 15px;
+  }
+
+  footer .container form {
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .sunset article {
+    padding-left: 12px;
+  }
+
+  .monstera article {
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .main_banner p {
+    margin-bottom: 15px;
+  }
+
+  .what_we_do {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .photography {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .past_clients {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  footer {
+    padding-top: 50px;
+  }
+
+  footer .right_first ul {
+    min-width: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 281px) {
+  .photography .need_help h2 {
+    font-size: 31px;
+  }
+
+  .what_we_do .container h4 {
+    font-size: 17px;
+  }
+
+  .what_we_do .container p {
+    font-size: 12px;
+  }
+
+  .bottom_icons {
+    right: 7px;
+  }
+}
